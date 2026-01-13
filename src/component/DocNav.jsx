@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../assets/pubnub_logo.png'
 import { Link } from 'react-router-dom'
 import { Search } from "lucide-react";
+import { Menu } from 'lucide-react'
 
 function DocNav() {
   return (
@@ -11,12 +12,15 @@ function DocNav() {
             <img src={logo} alt="logo image" className='h-8 w-auto' />
             <li >DOCS</li>
         </div>
-        <div className='flex justify-between items-center gap-10 list-none '>
+        <div className='flex justify-between items-center gap-10 list-none hidden md:inline-flex'>
             <li>Support</li>
             <li>Contact sales</li>
             <Link to='/login'><button className='rounded-lg py-2 px-4 border-2 border-gray-500 '>Login</button></Link> 
             <Link to='register'><button className='rounded-lg px-4 py-2 border-2 bg-black text-white'>Try Out APIs</button></Link>   
         </div>
+        <div className="md:hidden cursor-pointer">
+        <Menu size={28} />
+      </div>
     
    </div>
 

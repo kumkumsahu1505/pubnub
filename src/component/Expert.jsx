@@ -4,11 +4,11 @@ import image1 from '../assets/office-workplace-with-laptop-smartphone.jpg'
 import {Link} from 'react-router-dom'
 function Expert() {
   return (
-    <div className="w-full flex justify-center py-16">
-      <div className="max-w-7xl w-full flex gap-8">
+    <div className="w-full justify-center py-16">
+      <div className="max-w-7xl w-full flex-row md:flex md:gap-8">
 
         {/* LEFT CARD */}
-        <div className="bg-blue-100 w-[35%] p-10 rounded-2xl border border-blue-300 flex flex-col gap-6">
+        <div className="bg-blue-100 w-full md:w-[35%] p-10 rounded-2xl border border-blue-300 flex flex-col gap-6">
           <h1 className="text-5xl font-bold text-black">
             Start building
           </h1>
@@ -30,7 +30,7 @@ function Expert() {
         </div>
 
         {/* RIGHT COLUMN */}
-        <div className="w-[65%] flex flex-col gap-8">
+        <div className="w-full md:w-[65%] flex-row md:flex md:flex-col gap-8">
 
           {/* TOP RIGHT CARD */}
           <div className="flex border border-blue-300 rounded-2xl overflow-hidden">

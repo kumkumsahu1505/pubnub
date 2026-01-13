@@ -7,14 +7,14 @@ import Expert from '../component/Expert'
 import Footer from '../component/Footer'
 function Home() {
   return (
-    <>
+    <div className='overflow-hidden'>
       <NavBar/>
       <Pubnub_sales/>
       <Brand/>
       <Experience/>
       <Expert/>
       <Footer/>
-    </>
+    </div>
   )
 }
 

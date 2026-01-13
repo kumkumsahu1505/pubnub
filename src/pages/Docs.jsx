@@ -4,10 +4,10 @@ import WhatNew from '../component/WhatNew'
 
 function Docs() {
   return (
-    <>
+    <div className='overflow-hidden'>
         <DocNav/>
         <WhatNew/>
-    </>
+    </div>
   )
 }
 

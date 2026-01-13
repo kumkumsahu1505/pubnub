@@ -56,7 +56,7 @@ function Brand() {
                 </ul>
             </div>
 
-            <div className="bg-white shadow-2xl shadow-blue-300 flex justify-between border border-blue-500 p-5 w-[90%] h-auto mt-20 my-30 mx-auto 
+            <div className="bg-white shadow-2xl shadow-blue-300 md:flex flex-row justify-between border border-blue-500 p-5 w-[90%] h-auto mt-20 my-30 mx-auto 
 
             ">
                 {brandBody.map((body, index) => {
